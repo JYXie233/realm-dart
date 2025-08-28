@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  realm_dart: ^3.4.2
+  realm_dart:
+    git:
+      url: https://github.com/mizangl/realm-dart
+      path: packages/realm_dart
+      branch: android_elf_aligned
 
 flutter:
   plugin:
